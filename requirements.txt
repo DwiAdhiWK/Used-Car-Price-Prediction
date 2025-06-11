@@ -1,0 +1,11 @@
+feature-engine
+numpy
+matplotlib
+pandas
+pickle
+plotly
+scikit-learn
+seaborn
+streamlit
+xgboost
+

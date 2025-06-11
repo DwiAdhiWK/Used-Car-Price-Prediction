@@ -1,0 +1,20 @@
+Jelaskan latar belakang adanya bagging dan cara kerja bagging !
+
+Jelaskan perbedaan cara kerja algoritma Random Forest dengan algoritma boosting yang Anda pilih !
+
+Jelaskan apa yang dimaksud dengan Cross Validation !
+
+
+1. Jawaban bagging adalah salah satu tipe Ensemble Learning yaitu sebuat teknik Machine Learning yang melibatkan beberapa model individu yang menjadi satu untuk membuat model yang lebih kuat.
+Bagging adalah kependekan dari Boostrap AGGregating karena bagging menggabungkan boostrapping dan aggregation untuk menjadi 1 model ensemble.
+
+Bagian boostraping akan melakukan sampling with replacement dimana data point di pilih secara dari train set tetapi data point nya bisa sama.
+Bagging akan membuat beberapa model yang akan di train secara independen dari subset data training yang berbeda.
+Hasil prediksi dari setiap model digabung dengan cara rata-rata buat kasus regresi atau voting majoritas untuk kasus klasifikasi
+
+2. Algoritma boosting yang saya gunakan adalah xgboost. Perbedaan cara kerja xgboost dengan random forest adalah di xgboost, setiap model baru
+terpengaruhi oleh model sebelum nya karena xgboost bekerja secara sekuential sedangkan random forest bekerja secara parallel. Di xgboost data di latih bedasarkan data yang salah klasifikasi di model sebelumnya 
+sedangkan random forest melatih model nya secara independen. Prediksi di xgboost menggunakan weighted rata-rata sedangkan random tree menggunakan rata-rata semua individu model untuk regresi atau voting majoritas untuk klasifikasi.
+
+3. Cross Validation adalah teknik untuk menestimasi performa model kepada data yang tidak terlihat. Tujuan teknik ini adalah untuk mencegah underfitting dan overfitting.
+Cross validation hanya dilakukan di train set dimana data di train di split secara acak menjadi fold dan tiap fold ini akan di latih.
