@@ -1,2 +1,2 @@
 https://www.kaggle.com/datasets/lepchenkov/usedcarscatalog/data
-https://huggingface.co/spaces/DwiA2/Milestone2
+https://huggingface.co/spaces/DwiA2/Used_Car_Price_Prediction
