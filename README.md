@@ -21,8 +21,21 @@ Namun, menentukan harga mobil bekas bukanlah hal yang mudah, terutama bagi merek
 
 Oleh karena itu, saya sebagai Data Analyst akan membangun sebuah model prediksi harga mobil bekas untuk membantu masyarakat dalam menentukan harga yang wajar, baik saat ingin menjual maupun membeli mobil.
 
+## SMART and Problem Statement
+Specific: Meningkatkan tingkat retensi pengguna jasa pengiriman makanan dengan cara meningkatkan faktor-faktor yang mempengaruhi kemauan user menggunakan jasa tersebut.
+
+Measurable: Berhasil meningkatkan tingkat retensi user sebesar 70%
+
+Achievable: Mengetahui faktor-faktor yang mempengaruhi user menggunakan jasa pengiriman makanan.
+
+Relevant: Peningkatan tingkat retensi dapat diartikan pengguna lebih bersedia menggunakan jasa yang pada gilirannya meningkatkan pendapatan perusahaan.
+
+Time-bound: Proses analisis dan visualisasi data dilakukan selama 2 minggu hari kerja.
+
+Problem statement: Perusahaan mengalami penurunan pengunaan jasa pengiriman makan. Tim marketing mengestimasikan tingak retensi user sebesar 60%. Selain itu perusahaan kekurangan refensi agar user tetap menggunakan jasa. Saya sebagai data analyst yang berkerja diperusahaan pengiriman makanan di Bangalore ditugasakan meningkatkan retensi user.
+
 ## Project Output
-Output dari projek ini adalah dari 5 model yang digunakan, XgBoost Regressor paling baik untuk memprediksi harga mobil bekas dan sebuah aplikasi penerapan model di Hugging Face.
+Output dari projek ini adalah dari model dengan performa terbaik dari 5 model regresi akan digunakan untuk memprediksi harga mobil bekas dan sebuah aplikasi penerapan model di Hugging Face.
 
 ## Data
 Dataset terdiri dari 38532 baris dan 30 kolom.
@@ -63,7 +76,7 @@ Setelah dilakukan hyperparameter tuning, performa model sedikit menurun pada dat
 Hal ini menunjukkan bahwa tuning berhasil mengurangi overfitting pada data training (karena R² train menurun), meskipun berdampak kecil pada akurasi test.
 Model hasil tuning memiliki generalization yang lebih baik dan stabil, sehingga tetap dipilih untuk implementasi.
 
-## Kesimpulan
+## Conclusion
 Dalam proyek ini, lima model regresi digunakan untuk memprediksi harga mobil bekas, yaitu KNeighborsRegressor, Support Vector Regression (SVR), Decision Tree Regressor, Random Forest Regressor, dan XGBoost Regressor.
 
 Setelah dilakukan evaluasi, model dengan performa terbaik adalah XGBoost Regressor, dengan nilai R² train sebesar 0.91 dan R² test sebesar 0.89.
