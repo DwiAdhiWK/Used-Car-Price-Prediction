@@ -22,17 +22,17 @@ Namun, menentukan harga mobil bekas bukanlah hal yang mudah, terutama bagi merek
 Oleh karena itu, saya sebagai Data Analyst akan membangun sebuah model prediksi harga mobil bekas untuk membantu masyarakat dalam menentukan harga yang wajar, baik saat ingin menjual maupun membeli mobil.
 
 ## SMART and Problem Statement
-Specific: Meningkatkan tingkat retensi pengguna jasa pengiriman makanan dengan cara meningkatkan faktor-faktor yang mempengaruhi kemauan user menggunakan jasa tersebut.
+Specific: Membuat model regresi untuk memprediksi harga jual mobil bekas bedasarkan feature nya seperti tahun mobil, jenis bahas bakar, model mobile.
 
-Measurable: Berhasil meningkatkan tingkat retensi user sebesar 70%
+Measurable: Menggunakan Root Mean Square Error (RMSE) lebih kecil dari 1500 dollar dan nilai R2 setidak nya 0.85.
 
-Achievable: Mengetahui faktor-faktor yang mempengaruhi user menggunakan jasa pengiriman makanan.
+Achievable: Menggunkan 39000 baris data dari kaggle.
 
-Relevant: Peningkatan tingkat retensi dapat diartikan pengguna lebih bersedia menggunakan jasa yang pada gilirannya meningkatkan pendapatan perusahaan.
+Relevant: Model prediksi yang akurat dapat membantu orang-orang yang ingin menjual atau membeli dan meningkatkan kepuasan dalam menjual atau membeli mobil bekas.n.
 
 Time-bound: Proses analisis dan visualisasi data dilakukan selama 2 minggu hari kerja.
 
-Problem statement: Perusahaan mengalami penurunan pengunaan jasa pengiriman makan. Tim marketing mengestimasikan tingak retensi user sebesar 60%. Selain itu perusahaan kekurangan refensi agar user tetap menggunakan jasa. Saya sebagai data analyst yang berkerja diperusahaan pengiriman makanan di Bangalore ditugasakan meningkatkan retensi user.
+Problem statement: Saya sebagai data analyst akan membuat model regresi untuk memprediksi harga jual mobil bekas. Sasaran nya adalah untuk mencapai nilai RMSE lebih kecil dari 1500 dollar dan nilai R2 sebesar 0.85 saat test data nya. Saya akan menggunakan 39000 baris data mobil bekas dari kaggle dan waktu analisis ini dikerjakan selama 2 minggu.
 
 ## Project Output
 Output dari projek ini adalah dari model dengan performa terbaik dari 5 model regresi akan digunakan untuk memprediksi harga mobil bekas dan sebuah aplikasi penerapan model di Hugging Face.
